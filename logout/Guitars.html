@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <title>
+            Guitars Catalogue
+        </title>
+    <link rel="stylesheet" type="text/css" href="mainpage.css">
+        <link rel="stylesheet" type="text/css" href="dropdown.css">
+    <style>
+    div.img {
+    margin: 65px;
+    border: 1px solid #ccc;
+    width: 300px;
+    float:left;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+    opacity: 0.9;
+    
+}
+
+div.img img {
+    width: 100%;
+    height: 40%;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+
+}
+</style>
+    </head>
+    <body onload="slide A()">
+        <h3 align=right>
+            <a href="contact.html" class="contact">Contact | </a><a href="http://localhost/wtproject/Divtag2.html" class="login"> Logout</a></h3>
+       <h3>
+       <h3 align=center> <img src="LOGO.png" width="30%">   
+<h3></h3><ul>
+    <li><a href="Divtag2.html">Home</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Instruments</a>
+    <div class="dropdown-content">
+      <a href="Guitars.html">Guitar</a>
+      <a href="Percussions.html">Percussion</a>
+      <a href="Keyboards.html">Keyboard</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="#" class="dropbtn">Sound</a>
+    <div class="dropdown-content">
+      <a href="Sounds.html">Sound</a>
+      <a href="Amps.html">Amplifiers</a>
+    </div>
+  </li>
+    <li>
+      <a href="Offers.html">Offers</a>
+    </li>
+            <li>
+      <a href="cart.php">Cart</a>
+    </li>
+  </ul>
+</h3>
+<div class="img">
+  <a target="_blank" href="PrdInfo1.html">
+    <img src="CortElectric.jpg" alt="Cort" width="300" height="200">
+  </a>
+  <div class="desc">Cort X Custom<br>Rs.33,800/-<br><form method="post" action="setup.php">
+      Add to cart <input type="submit" name="6" value="+"></form></div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="PrdInfo2.html">
+    <img src="FenderAcoustic.jpg"  width="600" height="400">
+  </a>
+  <div class="desc">Fender CD-60<br>Rs.50,000/-<br><form method="post" action="setup.php">
+      Add to cart <input type="submit" name="7" value="+"></form></div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="PrdInfo3.html">
+    <img src="WashburnAcoustic.jpg"  width="600" height="400">
+  </a>
+  <div class="desc">Washburn WD10CEB<br>Rs.19,600/-<br><form method="post" action="setup.php">
+      Add to cart <input type="submit" name="8" value="+"></form></div>
+</div>
+    
+<div class="img">
+  <a target="_blank" href="PrdInfo4.html">
+    <img src="IbanezBass.jpg"  width="600" height="400">
+  </a>
+  <div class="desc">Ibanez GSR320<br>Rs.17,000/-<br><form method="post" action="setup.php">
+      Add to cart <input type="submit" name="9" value="+"></form></div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="PrdInfo5.html">
+    <img src="EpiphoneElectric.jpg"  width="600" height="400">
+  </a>
+  <div class="desc">Epiphone Les Paul<br>Rs.32,000/-<br><form method="post" action="setup.php">
+      Add to cart <input type="submit" name="10" value="+"></form></div>
+</div>
+
+
+    
+</body>
+</html>

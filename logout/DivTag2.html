@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <title>
+            Div Tag demonstration
+        </title>
+     
+<link rel="stylesheet" type="text/css" href="mainpage.css">
+        <link rel="stylesheet" type="text/css" href="dropdown.css">
+    </head>
+    <body onload="slide A()">
+                    
+<h3 align=right>
+    <a href="contact.html" class="contact">Contact | </a><a href="http://localhost/wtproject/divtag2.html" class="login"> Logout</a>
+     <h3 align=center> <img src="LOGO.png" width="30%">
+  <ul>
+      <li><a href="Divtag2.html">Home</a></li>
+  <li class="dropdown">
+    <a href="categories.html" class="dropbtn">Instruments</a>
+    <div class="dropdown-content">
+      <a href="Guitars.html">Guitar</a>
+      <a href="Percussions.html">Percussion</a>
+      <a href="keyboards.html">Keyboard</a>
+    </div>
+  </li>
+    <li class="dropdown">
+    <a href="#" class="dropbtn">Sound</a>
+    <div class="dropdown-content">
+      <a href="sounds.html">Sounds</a>
+      <a href="Amps.html">Amplifier</a>
+    </div>
+  </li>
+    <li>
+      <a href="Offers.html">Offers</a>
+    </li>
+       <li>
+      <a href="cart.php">Cart</a>
+    </li>
+           
+      </ul>
+      
+    
+</h3>
+        
+        <div class="slideshow-container">
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="two.jpg" style="width:100%">
+ </div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="banner04.jpg" style="width:100%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="cosa-music.jpg" style="width:100%">
+  </div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="1864243_orig.jpg" style="width:100%">
+  </div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+    <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+        
+        <div class="firstcontent">
+            <img width=400 src="LOGO2.png">
+            
+            <h2 class="firstcontenttext">Welcome to the best shop in the country - your destination for the best musical instruments, gear and exclusive content to help you get the sound you are after.</h2>
+            <img class="instru" width=500 src="store.jpg" alt="MUSIC" title="MUSIC">
+        </div>
+        <div class="firstcontent">
+<h3>Featured products</h3>
+            <div class="img">
+  <a target="_blank" href="">
+    <img src="ESP_F-50.jpg" alt="" width="300" height="200">
+  </a>
+  <div class="desc">Blackstar Guitar Amplifier ID Core 20w Stereo Combo<br>12500/-</div>
+                 </div>
+            <div class="img">
+  <a target="_blank" href="">
+    <img src="KIT-PERCUSION-ALESIS-DM6-KIT.jpg" alt="" width="300" height="200">
+  </a>
+  <div class="desc">Batería electrónica Alesis DM8 Pro Kit<br>10000/-</div>
+                 </div>
+            <div class="img">
+  <a target="_blank" href="">
+    <img src="0a0ea215eba03728fea56fe5df7f87de.jpg" alt="" width="300" height="200">
+  </a>
+  <div class="desc">LP Aspire 3-Piece Conga Set with Free Bongos<br>8000/-</div>
+                 </div>
+            <div class="img">
+  <a target="_blank" href="">
+    <img src="Epiphone_Lespaul.jpg" alt="" width="300" height="200">
+  </a>
+  <div class="desc">Epiphone Lespaul electric guitar<br>12500/-</div>
+                 </div>
+            
+        <br>
+    </body>
+</html>

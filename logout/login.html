@@ -1,0 +1,97 @@
+<html>
+<head>
+<style>
+.contain{font-family:verdana;
+     float:right;
+    positon:relative;
+       width:370px
+    }
+.contain1{font-family:verdana;
+     margin:auto;
+    positon:relative;
+       width:370px
+}
+input[type=text]
+{
+ font-family:verdana;
+ font-size:20px;
+}
+input[type=email]
+{
+ font-family:verdana;
+ font-size:20px;
+}
+input[type=password]
+{
+ font-family:verdana;
+ font-size:20px;
+}
+input[type=submit]
+{
+ font-family:verdana;
+ font-size:20px;
+}
+input[type=reset]
+{
+ font-family:verdana;
+ font-size:20px;
+}
+
+legend
+{
+ font-family:verdana;
+}
+
+input[type=reset]:hover,input[type=reset]:active{
+	background-color:#566573;
+  color:white;}
+</style>
+</head>
+
+<body background="login1.jpg">
+ <div class="contain1">
+<form action="login.php" method="post">
+<br><br>
+<input type="text" size=10 placeholder="UserID" name=ruser>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="password" size=11 placeholder="Password" name ="rpass">
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;
+<input type="submit" value="Login" name="login">
+</form>
+</div>
+<br><br>
+<div class="contain">
+<form action="register.php" method="post">
+<fieldset>
+<legend><b><font color="white">SIGN IN</font></b></legend>
+<br>
+<input type="text" size=10 required placeholder="First Name" autofocus name="fname">
+<input type="text" size=12 required placeholder="Last Name" name="lname">
+<br><br>
+
+<input type="text" maxlength=10 size=25 required placeholder="Mobile number" name="mnum">
+<br><br>
+
+<input type="email" size=25 maxsize=50 required placeholder="Email ID(UserID)" name="ruser">
+<br><br>
+
+<input type="password" size=25 required placeholder="Enter Password" name="rpass">
+<br><br>
+
+<input type="password" size=25 required placeholder="Confirm Password" name="repass"><br><br>
+<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" value="Sign in" name="register">
+<br><br>
+
+</fieldset>
+    </form>
+</div><br>
+
+
+</body>
+</html>

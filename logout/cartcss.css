@@ -1,0 +1,39 @@
+.container{
+    width: 80%;
+    height: 400;
+    
+    margin-left: 100px;
+}
+.naam{
+    padding-right: 100px;
+    width: 35%;
+    float: left;
+}
+.amount{
+     
+    width: 10%;
+    float: left;
+}
+.cancel{
+    
+    width: 15%;
+    float: left;
+     padding-left: 100px;
+}
+.total{
+    float: left;
+    width: 35%;
+     padding-right: 100px;
+}
+}
+.totalamount{
+  float: left;
+width: 100%;
+}
+.pay{
+  
+}
+
+
+
+   
